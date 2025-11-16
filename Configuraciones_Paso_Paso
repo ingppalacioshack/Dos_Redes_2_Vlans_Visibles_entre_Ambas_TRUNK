@@ -79,8 +79,8 @@ switchport access vlan 10
 ******************
 ! Se configura en el Switch
 ! Puerto al router en modo trunk por Gigabit0/1 y la enciendo
+
 interface GigabitEthernet0/1
- description LINK_TO_ROUTER
  switchport mode trunk
  switchport trunk allowed vlan 10,20
  no shutdown
